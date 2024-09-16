@@ -1,0 +1,24 @@
+.container {
+    width: 358px;
+    margin-inline: auto;
+    padding: 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.display-initial {
+    display: initial;
+}
+
+@media (width >= 80em) {
+    .container {
+        width: 50%;
+        margin-inline: auto;
+        main {
+            margin-inline: auto;
+        }
+    }
+    
+}

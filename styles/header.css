@@ -1,0 +1,18 @@
+header {
+    display: none;
+    font: var(--title);
+    color: var(--content-secondary);
+}
+
+@media (width >= 80em) {
+    header {
+        display: initial;
+        display: flex;
+        justify-content: center;
+        gap: 0.43rem;
+
+        & p {
+            margin-bottom: 0.1rem;
+        }
+    }    
+}
